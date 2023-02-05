@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 /*
 
 flex-direction = smena osi, (po umolchaniyu row)
@@ -14,3 +15,7 @@ justify-content: space-around = odinak otstupu all + otstup po krayam
 justify-content: space-evenly = odinak otstupu all elem
 
 */
+.nav a {
+    text-decoration: none;
+    color: black;
+}

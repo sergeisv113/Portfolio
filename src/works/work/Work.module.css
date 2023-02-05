@@ -1,17 +1,25 @@
-.work {
-    width: 550px;
+.workContainer {
+    width: 350px;
     background-color: #e9e5e7;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .icon {
     width: 200px;
     height: 200px;
     background-color: #757575;
 }
+
 ._button {
     display: block;
     margin: 30% auto 0;
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    background-color: #737272;
 }

@@ -10,17 +10,18 @@ import {Contact} from "./contact/Contact";
 import {Footer} from "./footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-        <Header/>
-        <Main />
-        <Skills/>
-        <Works/>
-        <Distant/>
-        <Contact/>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Works/>
+            <Distant/>
+            <Contact/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
+//yarn run deploy

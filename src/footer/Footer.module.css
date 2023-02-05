@@ -2,10 +2,13 @@
     height: 40vh;
     background-color: #efcbdd;
 }
+
 .footerContainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap
 }
+
 .messenger {
     display: flex;
     justify-content: space-between;
@@ -13,11 +16,16 @@
     width: 40%;
     height: 55px;
 }
+
 .messenger a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 85px;
-    height: 55px;
+    height: 100%;
     background: #9b9b9b;
+}
+
+.title {
+    background-color: #737272;
 }

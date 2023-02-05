@@ -9,16 +9,24 @@ export function Works() {
             <div className={`${sContainer.container} ${s.worksContainer}`}>
                 <h2 className={s.title}>Мои работы</h2>
                 <div className={s.works}>
-            <Work
-                title={'Сайт портфолио'}
-                description={'Lorem cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsumipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto '}
-            />
-            <Work
-                title={'Сайт визитка'}
-                description={'cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam '}
-            />
+                    <Work
+                        title={'Сайт портфолио'}
+                        description={'Lorem cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsumipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto '}
+                    />
+                    <Work
+                        title={'Сайт визитка'}
+                        description={'cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam '}
+                    />
+                    <Work
+                        title={'Сайт портфолио'}
+                        description={'Lorem cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsumipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto '}
+                    />
+                    {/* <Work
+                        title={'Сайт портфолио'}
+                        description={'Lorem cupiditate dolores earum enim itaque minus nulla quia sed suscipit.Lorem ipsumipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto '}
+                    />*/}
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
     );
 };

@@ -9,24 +9,24 @@ export function Skills() {
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <h2 className={s.title}>Мои скилы</h2>
                 <div className={s.skills}>
-                        <Skill
-                            description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur corporis, incidunt '}
-                            title={'HTML'}/>
-                        <Skill
-                            description={'Accusantium consequatur corporis, incidunt'}
-                            title={'CSS'}/>
-                        <Skill
-                            description={' itaque nam placeat quas quasi quos ratione vel?'}
-                            title={'REACT'}/>
-                    {/*<Skill*/}
-                    {/*    description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur corporis, incidunt'}*/}
-                    {/*    title={'HTML'}/>*/}
-                    {/*<Skill*/}
-                    {/*    description={'Accusantium consequatur corporis, incidunt Accusantium consequatur corporis, incidunt'}*/}
-                    {/*    title={'CSS'}/>*/}
-                    {/*<Skill*/}
-                    {/*    description={' itaque nam placeat quas quasi quos ratione vel?Accusantium consequatur corporis, incidunt Accusantium consequatur corporis,'}*/}
-                    {/*    title={'REACT'}/>*/}
+                    <Skill
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur corporis, incidunt '}
+                        title={'HTML'}/>
+                    <Skill
+                        description={'Accusantium consequatur corporis, incidunt'}
+                        title={'CSS'}/>
+                    <Skill
+                        description={' itaque nam placeat quas quasi quos ratione vel?'}
+                        title={'REACT'}/>
+                    <Skill
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur corporis, incidunt'}
+                        title={'VUE'}/>
+                    <Skill
+                        description={'Accusantium consequatur corporis, incidunt Accusantium consequatur corporis, incidunt'}
+                        title={'API'}/>
+                    <Skill
+                        description={' itaque nam placeat quas quasi quos ratione vel?Accusantium consequatur corporis, incidunt Accusantium consequatur corporis,'}
+                        title={'ANGULAR'}/>
                 </div>
             </div>
         </div>

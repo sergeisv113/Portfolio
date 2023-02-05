@@ -7,3 +7,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.title {
+    background-color: #737272;
+}

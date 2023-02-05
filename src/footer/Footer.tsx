@@ -15,7 +15,7 @@ export function Footer() {
                     <a href="#"></a>
                 </div>
 
-                 <h3 className={s.title}>© Все права защищены</h3>
+                <h3 className={s.title}>© Все права защищены</h3>
             </div>
         </div>
     );

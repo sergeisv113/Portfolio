@@ -5,6 +5,7 @@ type SkillType = {
     title: string
     description: string
 }
+
 export function Skill(props: SkillType) {
     return (
         <div className={s.skill}>
