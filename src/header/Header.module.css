@@ -1,0 +1,11 @@
+.header {
+    height: 80px;
+    /* esli % to eto ot roditelya */
+    /* em = razmer shrifta otnositelno roditelya */
+    /* rem = razmer shrifta rutovogo(kornevogo = body) elementa */
+    /*v roditele settings children */
+    background-color: #92c9c5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

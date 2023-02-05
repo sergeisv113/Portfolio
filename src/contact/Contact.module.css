@@ -1,0 +1,26 @@
+.contactBlock {
+    height: 100vh;
+    background-color: #e3e7be;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+.form {
+    width: 35%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: #767770;
+}
+.textarea {
+    resize: both;
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100px;
+    max-width: 100%;
+}
+.buttonContact {
+
+}

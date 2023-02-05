@@ -1,0 +1,15 @@
+.mainBlock {
+    height: 100vh;
+/*    vh = all ekran */
+    background-color: #fde6ed;
+}
+
+.text {
+    width: 300px;
+    background-color: #cccaca;
+}
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}

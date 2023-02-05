@@ -1,0 +1,9 @@
+.distantBlock {
+    height: 40vh;
+    background-color: #dbe5ef;
+}
+.distantContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
