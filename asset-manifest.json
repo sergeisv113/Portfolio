@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6e6edf6b.css",
-    "main.js": "/Portfolio/static/js/main.df83ae84.js",
+    "main.css": "/Portfolio/static/css/main.0f6bd495.css",
+    "main.js": "/Portfolio/static/js/main.96f7cc91.js",
     "static/js/787.b98c23e5.chunk.js": "/Portfolio/static/js/787.b98c23e5.chunk.js",
+    "static/media/COUNTER.jpg": "/Portfolio/static/media/COUNTER.548d034dacd82ae954d0.jpg",
+    "static/media/TODO.jpg": "/Portfolio/static/media/TODO.0e1c03a0aa7f2cb2c515.jpg",
+    "static/media/HELIGA.jpg": "/Portfolio/static/media/HELIGA.dc62b810e971a8c34532.jpg",
+    "static/media/heliga_Pw.png": "/Portfolio/static/media/heliga_Pw.3b8d5f95b149bebe1b97.png",
+    "static/media/SOCIAL.jpg": "/Portfolio/static/media/SOCIAL.496ac61fce77237fe9c8.jpg",
+    "static/media/MyFoto.jpg": "/Portfolio/static/media/MyFoto.64873956650cf070fcf8.jpg",
+    "static/media/social_Pw.png": "/Portfolio/static/media/social_Pw.f13a8434254d0377f2ec.png",
+    "static/media/counter_Pw.png": "/Portfolio/static/media/counter_Pw.f35db47f4ecd91aa54fd.png",
+    "static/media/todo_Pw.png": "/Portfolio/static/media/todo_Pw.202bd58a0f765f8a8461.png",
+    "static/media/api.svg": "/Portfolio/static/media/api.082c06b8cbb08f92fefc319d97ac061a.svg",
+    "static/media/tdd.svg": "/Portfolio/static/media/tdd.bb3fdd5fe6d2c00c782037d409b7d8f4.svg",
+    "static/media/seo.svg": "/Portfolio/static/media/seo.6e6a535095bc2af87d85edce31a10677.svg",
+    "static/media/react.svg": "/Portfolio/static/media/react.696e1c35b4339685b73a69892821968e.svg",
+    "static/media/wordpress.svg": "/Portfolio/static/media/wordpress.9b8415927cd7153018555ac8c672a6d2.svg",
+    "static/media/html.svg": "/Portfolio/static/media/html.6af9d101e94e2c5d6e4a6444b1090339.svg",
+    "static/media/css.svg": "/Portfolio/static/media/css.260599751f2b1db0fb713f1e57ab2927.svg",
     "index.html": "/Portfolio/index.html",
-    "main.6e6edf6b.css.map": "/Portfolio/static/css/main.6e6edf6b.css.map",
-    "main.df83ae84.js.map": "/Portfolio/static/js/main.df83ae84.js.map",
+    "static/media/typescript.svg": "/Portfolio/static/media/typescript.f84d169cd44d25468e7e07f993edcec1.svg",
+    "main.0f6bd495.css.map": "/Portfolio/static/css/main.0f6bd495.css.map",
+    "main.96f7cc91.js.map": "/Portfolio/static/js/main.96f7cc91.js.map",
     "787.b98c23e5.chunk.js.map": "/Portfolio/static/js/787.b98c23e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e6edf6b.css",
-    "static/js/main.df83ae84.js"
+    "static/css/main.0f6bd495.css",
+    "static/js/main.96f7cc91.js"
   ]
 }
