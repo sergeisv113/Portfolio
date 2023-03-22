@@ -40,7 +40,7 @@ export const Projects = () => {
             title: 'Social network',
             stack: 'CSS, HTML, TS, React, Redux, Adaptive layout',
             description: 'Social network',
-            linkGH: 'https://github.com/sergeisv113/samurai-wai',
+            linkGH: 'https://github.com/sergeisv113/samurai-way',
             linkPr: 'https://sergeisv113.github.io/samurai-way/'
         },
         {   id: '4',
