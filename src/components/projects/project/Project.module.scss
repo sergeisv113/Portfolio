@@ -1,0 +1,140 @@
+
+@import "../../../common/styles/variables";
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .image {
+        width: 100%;
+        height: 400px;
+        background-color: $trackColor;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        overflow:hidden;
+        border-radius: 10px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            border-radius: 10px;
+            transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+            overflow: hidden;
+        }
+
+        &:hover::before {
+            width: 85%;
+            height: 85%;
+            background: $trackColor;
+        }
+
+        .tittleBefore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            cursor: pointer;
+            width: 85%;
+            height: 85%;
+            vertical-align: center;
+            h4 {
+                width: 70%;
+                opacity: 0;
+                transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+                transition-delay: 0.3s;
+                hyphens: auto;
+            }
+        }
+        &:hover .tittleBefore{
+            h4{
+                opacity: 1;
+            }
+        }
+        .tittle{
+            border: $primaryColor solid 4px;
+            border-radius: 9px;
+            h3 {
+                border-radius: 5px;
+                background: $primaryColor;
+                padding: 8px;
+                margin: 3px;
+            }
+        }
+
+        &:hover .tittle{
+            display: none;
+        }
+        .description {
+            position: absolute;
+            width: 90%;
+            top: 75px;
+            left: 105%;
+            transition: left .5s;
+            h3 {
+                margin-bottom: 5px;
+            }
+        }
+        &:hover .description{
+            left: 5%;
+        }
+        .technologyStack {
+            position: absolute;
+            top: -100px;
+            max-width: 100%;
+            margin-left: 25px;
+            margin-right: 25px;
+            transition: top .5s;
+            h3 {
+                margin-bottom: 5px;
+            }
+        }
+        &:hover .technologyStack{
+            top: 10px;
+        }
+        .icFirst {
+            position: absolute;
+            left: 50px;
+            bottom: -49px;
+            transition: bottom .5s;
+        }
+        .icSecond {
+            position: absolute;
+            left: 118px;
+            bottom: -49px;
+            transition: bottom .5s;
+        }
+        .centre {
+            font-size: 28px;
+            color: $textColor;
+        }
+        .circle {
+            font-size: 60px;
+            color: $textColor;
+            position: relative;
+            left: -44px;
+            bottom: -14px;
+            animation: first 1s infinite;
+        }
+        @keyframes first {
+            0% {
+                transform: rotate(0deg)
+            }
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+        &:hover .icFirst{
+            bottom: 26px;
+        }
+        &:hover .icSecond {
+            bottom: 26px;
+        }
+    }
+}

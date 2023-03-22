@@ -1,0 +1,27 @@
+@import '../../../common/styles/variables';
+
+.nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 0px 10px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+
+    .active {
+        color: $primaryColor;
+    }
+}

@@ -1,0 +1,29 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.skillsBlock {
+    min-height: 100vh;
+    background-color: $BgColor;
+    padding: 40px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.skillsContainer {
+    flex-direction: column;
+    /*  flex-direction: column = row => column  */
+    justify-content: flex-start;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.title {
+    @include textTitle;
+    text-align: center;
+}

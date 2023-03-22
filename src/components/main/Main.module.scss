@@ -1,0 +1,115 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.mainBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $secondBgColor;
+  padding: 40px 0;
+
+  .photo {
+    height: auto;
+    width: auto;
+    border: 13px solid $primaryColor;
+    //background: #252c48;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 200%;
+      top: -100px;
+      left: -100px;
+      //background: $primaryColor;
+      transform: rotate(-30deg);
+    }
+
+    img {
+      border-radius: 10px;
+      position: relative;
+      z-index: 1;
+      height: auto;
+      width: 500px;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  .boxInfo {
+    background-color: $BgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+
+    .greeting {
+      background: $primaryColor;
+      color: $textColor;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 3px 10px;
+      position: relative;
+      line-height: 26px;
+
+      &:after {
+        position: absolute;
+        content: '';
+        bottom: -10px;
+        left: 5px;
+        width: 0;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-left: 10px solid $primaryColor;
+        border-bottom: 10px solid transparent;
+      }
+    }
+
+    .name {
+      @include textTitle
+    }
+
+    h4 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    h5 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    p {
+      max-width: 480px;
+      color: $textColor;
+      text-align: left;
+      font-size: 18px;
+    }
+
+
+    button {
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    flex-direction: column;
+    .boxInfo {
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .boxInfo {
+      .name {
+        font-size: 30px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,144 @@
+@import '../../common/styles/variables';
+
+.background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.35;
+  z-index: 1001;
+}
+
+.modal {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90px 1fr;
+  gap: 20px;
+  width: 1000px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $secondBgColor;
+  z-index: 1002;
+  padding: 0 20px 20px 20px;
+
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    color: $textColor;
+    font-size: 30px;
+    cursor: pointer;
+
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+
+  .header {
+    grid-column: 1 / 3;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+
+    h3 {
+      font-size: 30px;
+      text-transform: uppercase;
+      line-height: 40px;
+    }
+  }
+
+  .image {
+    grid-column: 1/ 2;
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+  }
+
+  .info {
+    grid-column: 2/3;
+    //grid-row: 2 / 4;
+    text-align: left;
+
+    h5 {
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #fff;
+      line-height: 1.625;
+      hyphens: auto;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+
+    .link {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -30px;
+
+      .icFirst {
+        //position: absolute;
+        //left: 0;
+        //bottom: 0;
+        transition: bottom .5s;
+        // animation: second 0.5s;
+        &:hover .circle, &:hover .centre {
+          color: $primaryColor;
+        }
+      }
+
+      .icSecond {
+        //position: absolute;
+        //left: 0;
+        //bottom: 0;
+        transition: bottom .5s;
+        // animation: second 0.5s;
+        &:hover .circle, &:hover .centre {
+          color: $primaryColor;
+        }
+      }
+
+      .centre {
+        font-size: 28px;
+        color: $textColor;
+        //color: #fff;
+        // position: absolute;
+        // left: 47px;
+        // bottom: -49px;
+      }
+
+      .circle {
+        font-size: 60px;
+        color: $textColor;
+        //color: #fff;
+        position: relative;
+        left: -44px;
+        bottom: -14px;
+        animation: first 1s infinite;
+      }
+
+      @keyframes first {
+        0% {
+          transform: rotate(0deg)
+        }
+        100% {
+          transform: rotate(360deg)
+        }
+      }
+    }
+
+  }
+}
+
+

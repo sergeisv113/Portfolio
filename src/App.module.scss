@@ -1,0 +1,24 @@
+@import 'src/common/styles/variables';
+
+.App {
+    text-align: center;
+    background-color: #171C32
+}
+
+/*@font-face {
+    font-family: 'JosefinSans';
+    src: url('common/fonts/static/JosefinSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+a, span {
+    color: $textColor;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $textColor;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}

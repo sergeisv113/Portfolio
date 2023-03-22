@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Header} from "./header/Header";
-import {Main} from "./main/Main";
-import {Skills} from "./skills/Skills";
-import {Works} from "./works/Works";
-import {Distant} from "./distant/Distant";
-import {Contact} from "./contact/Contact";
-import {Footer} from "./footer/Footer";
+import './App.module.scss';
+import {Main} from "./components/main/Main";
+import {Skills} from "./components/skills/Skills";
+import {Projects} from "./components/projects/Projects";
+import {Remote} from "./components/remote/Remote";
+import {Contacts} from "./components/contacts/Contacts";
+import {Footer} from "./components/footer/Footer";
+import {Header} from "./components/header/Header";
 
 function App() {
     return (
@@ -15,9 +14,9 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <Works/>
-            <Distant/>
-            <Contact/>
+            <Remote/>
+            <Projects/>
+            <Contacts/>
             <Footer/>
         </div>
     );

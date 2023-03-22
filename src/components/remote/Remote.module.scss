@@ -1,0 +1,29 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.distantBlock {
+    background-color: $secondBgColor;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.distantContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.title{
+    @include textTitle;
+    text-align: center;
+}
+.cv {
+    button {
+        float: left;
+        a {
+            text-decoration: none;
+        }
+    }
+}
